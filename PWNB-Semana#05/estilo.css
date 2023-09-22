@@ -1,0 +1,22 @@
+body{
+    background-image: url(logonba.png);
+    background-size: 30cm;
+    background-repeat: no-repeat;
+    background-position:top
+}
+
+header{
+
+    background-color: #f3d809;
+}
+
+aside{
+    background-color: #f3d809;
+    opacity: 0.5;
+}
+
+footer{
+    background-color: #f3d809;
+    opacity: 0.5;
+}
+
