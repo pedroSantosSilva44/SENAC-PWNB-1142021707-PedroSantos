@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    background-image: url("logonba.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+  }
+  
+  aside {
+    float: left;
+    width: 20%;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #000000;
+  }
+  
+  footer {
+    clear: both;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    background-color: #000000;
+  }
+
+  .sidebar {
+    float: left;
+    width: 20%;
+    padding: 20px;
+  }
+  
+  .sidebar a span:before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+    margin-right: 10px;
+    margin-top: 2px;
+  }
+  
+  .sidebar a span:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
