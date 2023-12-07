@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+  background-image: url("logonba.png");
+  background-size: 200px;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+header {
+  color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.campos {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.acoes {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.acoes button {
+  margin-right: 10px;
+}
+
+#tabela-clientes {
+  width: 100%;
+}
+
+#tabela-clientes thead tr th {
+  background-color: #ccc;
+  text-align: center;
+}
+
+#tabela-clientes tbody tr {
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background-color: #000;
+}
