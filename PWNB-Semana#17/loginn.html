@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Menu</title>
+    <link rel="stylesheet" href="estilo.css" type="text/css" media="screen">
+    
+</head>
+<body> 
+<header>
+    <h1>NBA Time</h1>
+    <hr>
+    <center><font size=5 color="#000000">Area de login para receber noticias sobre o mundo NBA </font></center>
+</header>
+<a href="index.html" class="nav-link voltar">Voltar</a>
+<button id="openModalBtn" class="login-btn">Login</button>
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeModalBtn">&times;</span>
+        <p>Insira seu e-mail para receber atualizações:</p>
+        <input type="email" id="emailInput" placeholder="Digite seu e-mail">
+        <button id="submitBtn">Enviar</button>
+        <div id="successMessage"></div>
+    </div>
+</div>
+
+<script src="modal.js"></script>
+</body>
+</html>
